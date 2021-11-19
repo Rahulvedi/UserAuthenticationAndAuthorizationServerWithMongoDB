@@ -25,6 +25,7 @@ let mailTransporter = nodemailer.createTransport({
           
         }
       });
+      console.log("Email sent successfully1");
     } catch (error) {
       console.log(error, "email not sent");
     }
